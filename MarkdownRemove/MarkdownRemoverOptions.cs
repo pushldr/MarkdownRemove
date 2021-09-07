@@ -1,8 +1,12 @@
-﻿namespace MarkdownRemove
+﻿using System;
+
+namespace MarkdownRemove
 {
     public class MarkdownRemoverOptions
     {
-        public bool Gfm = true;                 
+        public bool Gfm = true;
+        public bool StripListLeaders = false;
+        public string ListLeaderChar = String.Empty;
         public bool UseImgAltText = false;    
         public bool ReplaceTwoOrMoreNewLinesWithOne = true;
         public bool RemoveInlineCode = true;

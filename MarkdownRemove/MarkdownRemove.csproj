@@ -10,10 +10,10 @@
         <RepositoryUrl>https://github.com/pushldr/MarkdownRemove</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>markdown C# dotnet</PackageTags>
-        <PackageVersion>1.0.0</PackageVersion>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <PackageVersion>1.0.1</PackageVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <Copyright>Copyright (c) pushldr 2021</Copyright>
-        <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+        <PackageReleaseNotes>Added a way to strip or replace list leaders</PackageReleaseNotes>
         <NoWarn>$(NoWarn);1591</NoWarn>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

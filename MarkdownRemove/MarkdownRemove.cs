@@ -33,6 +33,11 @@ namespace MarkdownRemove
             
             output = Regex.Replace(output, "^(-\\s*?|\\*\\s*?|_\\s*?){3,}\\s*$", "", RegexOptions.Multiline);
             
+         
+            if (_options.StripListLeaders) 
+                output = Regex.Replace(output, @"^([\f\r\t]*)([\*\-\+]|\d+\.)\s",  string.IsNullOrEmpty(_options.ListLeaderChar) ? "$1" : $"{_options.ListLeaderChar} $1", RegexOptions.Multiline);
+            
+            
             if (_options.Gfm) {
                 
                 // Header
