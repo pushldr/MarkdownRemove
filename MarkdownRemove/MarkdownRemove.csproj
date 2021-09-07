@@ -6,15 +6,14 @@
         <Title>MarkdownRemove</Title>
         <Authors>pushldr</Authors>
         <Description>Simple library to remove markdown formatting from strings</Description>
-        <PackageProjectUrl>N\A</PackageProjectUrl>
-        <PackageLicenseUrl>N\A</PackageLicenseUrl>
-        <PackageIconUrl>N\A</PackageIconUrl>
-        <RepositoryUrl>N\A</RepositoryUrl>
-        <RepositoryType>N\A</RepositoryType>
-        <PackageTags>N\A</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/pushldr/MarkdownRemove</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>markdown C# dotnet</PackageTags>
         <PackageVersion>1.0.0</PackageVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-        <PackageReleaseNotes>N\A</PackageReleaseNotes>
+        <Copyright>Copyright (c) pushldr 2021</Copyright>
+        <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
         <NoWarn>$(NoWarn);1591</NoWarn>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
