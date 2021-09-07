@@ -1,7 +1,9 @@
 # MarkdownRemove
  
+- Small simple C# library to remove markdown from text
 
-C# Port of the node.js module [remove-markdown](https://github.com/stiang/remove-markdown) licensed under the MIT License. See [LICENSE](https://github.com/stiang/remove-markdown/blob/master/LICENSE) for the full License.
+- C# Port of the node.js module [remove-markdown](https://github.com/stiang/remove-markdown) licensed under the MIT License. See [LICENSE](https://github.com/stiang/remove-markdown/blob/master/LICENSE) for the full License.
+  
   
 ```cs
 
